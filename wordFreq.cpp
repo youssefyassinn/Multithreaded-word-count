@@ -52,7 +52,6 @@ int main()
 
     cout << "Final Count:\n";
 
-    // Simple clean loop (no :: , no auto)
     for (pair<string, int> p : counter)
         cout << p.first << " : " << p.second << endl;
 
